@@ -45,7 +45,7 @@
 <nav>
   
   <!-- <p class="directory">{{ current_page.id |root}}</p> -->
-  <p class="directory"><a href="{{ base_url }}">root</a>/{{ current_page.id |root|directoryChain}}</p>
+  <p class="directory"><a href="{{ base_url }}">root</a>/{{ current_page.id |root|directoryChain|raw}}</p>
 
   {% set offset = 0 %}
   <ul>
