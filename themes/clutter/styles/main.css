@@ -2,13 +2,13 @@
 body {
   margin:0;
   padding:0;
-  background:#fafafa;
+  background:black;
   font-family:'Source Sans Pro', sans-serif;
 }
 
 
 a {
-  color:black;
+  color:olivedrab;
   text-decoration: none;
 }
 
@@ -17,10 +17,11 @@ a {
 /* sidebar left */
 
 .directory a:hover {
-  text-decoration:underline;
+  color:wheat;
 }
 .directory a:last-child {
   font-weight:700;
+  color: olivedrab;
 }
 
 .main-nav {
@@ -31,6 +32,7 @@ a {
 }
 .directory {
   margin-left:1em;
+  color: red;
 }
 
 .main-nav ul {
@@ -38,11 +40,12 @@ a {
   line-height:1.5em;
 }
 .main-nav a:hover {
-  text-decoration: underline;
+ color:tan;
 }
 
 .active a {
   font-weight:700;
+  color:forestgreen;
 }
 
 /* sidebar right */
@@ -56,10 +59,10 @@ a {
   list-style:none;
   margin:0 1em;
   padding:0;
-
+  color: steelblue;
 }
 .nav-contents ul li:first-child {
-  border-bottom:1px solid black;
+  border-bottom:1px solid paleturquoise;
   padding-bottom:0.2em;
   margin-bottom:0.4em;
 }
@@ -70,16 +73,17 @@ a {
   margin-left:1em;
 }
 .nav-contents a:hover {
-  text-decoration:underline;
+  color: steelblue;
 }
 
 /* content */
 
 .main-content {
   margin:0 auto;
-  max-width:800px;
-  border-left:1px solid #e3e3e3;
-  border-right:1px solid #e3e3e3;
+  max-width:750px;
+  color:wheat;
+  border-left:1px solid paleturquoise;
+  border-right:1px solid paleturquoise;
 }
 .article {
   margin:2em 3em;
@@ -91,29 +95,28 @@ pre {
 pre code {
   overflow-x:scroll;
 }
-
 .article a {
   font-weight:600;
-  color:#499BC9;
+  color:salmon;
 }
 .article a:hover {
   text-decoration:underline;
 }
-
-
 p code, li code  {
-  background:#F0F0F0;
-  color:#444;
-  border:1px solid #ccc;
+  background:black;
+  color:limegreen;
+  border:1px solid paleturquoise;
   padding:0.1em 0.2em;
 }
 .article h1 {
+  color: cadetblue;
   font-weight:700;
   font-size:30pt;
   padding:6pt 0;
   margin:0;
 }
 .article h2 {
+  color: lightsteelblue;
   padding:3pt 0;
   margin:0;
   font-weight:600;
@@ -132,9 +135,9 @@ p code, li code  {
   left:-0.8em;
 }
 .section-anchor a {
-  color:#999999;
+  color:maroon;
 }
 .section-anchor a:hover {
-  color:#333333;
+  color:firebrick;
 }
 
